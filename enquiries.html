@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrbanGear | Enquiries</title>
+
+    <link rel="stylesheet" href="cs_assets/style.css">
+
+</head>
+<body>
+
+
+    <!-- Navigation -->
+     <header>
+
+        <nav class="navbar">
+
+            <div class="logo"><img src="_images/resized_urbangear_logo.jpeg" alt="UrbanGear Logo"></div>
+
+            <ul class="nav-links">
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="enquiries.html">Enquire</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </nav>
+     </header>
+
+
+     <!-- Heading -->
+      <section class="page-heading">
+
+        <h1>Product Enquiry</h1>
+
+        <p>Interested in one of our products ? Send us an enquiry.</p>
+      </section>
+
+
+      <!-- Enquiry Form -->
+       <section class="form-section">
+
+        <form id="enquiryForm">
+
+
+            <label for="name">Full Name</label>
+
+            <input type="text" id="name" name="name" placeholder="Enter your full name">
+
+
+            <label for="email">Email Address</label>
+
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+
+
+            <label for="product">Product</label>
+
+            <select id="product">
+
+                <option value="">Select a product</option>
+                <option value="tshirt">Urban Sports T-Shirt</option>
+                <option value="hoodie">UrbanGear Hoodie</option>
+                <option value="runner">Urban Runner</option>
+                <option value="trainers">Street Trainers</option>
+                <option value="backpack">Urban Backpack</option>
+                
+            </select>
+
+
+            <label for="message">Message</label>
+
+            <textarea id="message" name="message" rows="6" placeholder="Enter your enquiry"></textarea>
+
+            <button type="submit" class="button">Submit Enquiry</button>
+
+            <p id="formMessage"></p>
+        </form>
+       </section>
+
+
+       <!-- Footer -->
+        <footer>
+
+            <p>&copy; 2026 UrbanGear Sports & Lifestyle. All Rights Reserved.</p>
+        </footer>
+
+
+        <script src="js_assets/script.js"></script>
+    
+</body>
+</html>
