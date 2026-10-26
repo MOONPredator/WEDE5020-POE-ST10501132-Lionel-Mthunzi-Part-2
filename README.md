@@ -22,7 +22,7 @@ The design will use a modern black, white and orange colour palette to create an
 •	Week 4: Testing, corrections, documentation and final presentation.
 
 
-References
+# References
 •	MDN Web Docs, HTML, CSS and JavaScript documentation.
 •	W3C Web Accessibility Initiative, accessibility guidance.
 •	Google
